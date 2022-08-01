@@ -62,6 +62,23 @@
         display: inline-block;
         margin-left: 50px;
       }
+
+      .flexbox1 {
+        display: flex;
+        background-color: white;
+        align-items: center;
+        justify-content: center;
+        }
+
+    .flexbox1 > div {
+        background-color: white;
+        margin: 10px;
+        padding: 20px;
+        font-size: 30px;
+        align-items: center;
+        justify-content: center;
+      }
+
       .flexbox2 {
         display: flex;
               background-color: white;
@@ -102,21 +119,6 @@
           font-family: futura;
           text-align: center;
       }
-      .flexbox1 {
-          display: flex;
-          background-color: white;
-          align-items: center;
-          justify-content: center;
-          }
-
-      .flexbox1 > div {
-          background-color: white;
-          margin: 10px;
-          padding: 20px;
-          font-size: 30px;
-          align-items: center;
-          justify-content: center;
-        }
 
         .projecttext {
           font-family: futura;
@@ -243,7 +245,7 @@
              "skills_list1 skills_list2"
              "skills_list3 skills_list4";
         }
-
       }
+
 
 
